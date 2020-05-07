@@ -1,0 +1,12 @@
+#开发环境
+server:
+  port: 7777
+#DB Configuration:
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/qcode?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: jianghuang123
+    type: com.alibaba.druid.pool.DruidDataSource
+# druid
